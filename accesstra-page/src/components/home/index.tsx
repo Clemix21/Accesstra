@@ -6,6 +6,7 @@ import HomePageGraphic from "../../assets/HomePageGraphic.png";
 import SponsorRedBull from "../../assets/SponsorRedBull.png";
 import SponsorForbes from "../../assets/SponsorForbes.png";
 import SponsorFortune from "../../assets/SponsorFortune.png";
+import Logo2 from "../../assets/Logo2.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 
@@ -16,7 +17,7 @@ type Props = {
 const Home = ({ setSelectedPage }: Props) => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
   return (
-    <section id="home" className="gap-16 bg-gray-20 py-10 h-full md:pb-0">
+    <section id="home" className="gap-16 bg-primary-300 py-10 h-full md:pb-0">
       {/* IMAGE AND MAIN HEADER */}
       <motion.div
         className="md:flex mx-auto w-5/6 items-center justify-center md:h-5/6"
@@ -75,7 +76,7 @@ const Home = ({ setSelectedPage }: Props) => {
         </div>
         {/* IMAGE */}
         <div className="flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end">
-          <img alt="home-page-graphic" src={HomePageGraphic}></img>
+          <img alt="Logo" src={Logo2}></img>
         </div>
       </motion.div>
 
