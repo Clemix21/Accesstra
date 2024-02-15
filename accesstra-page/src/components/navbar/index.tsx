@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
-import Logo from "/src/assets/Logo.png";
+
 import Link from "./Link";
 import { SelectedPage } from "../../shared/types";
 import useMediaQuery from "../../hooks/useMediaQuery";
 import ActionButton from "../../shared/ActionButton";
+import AccesstraLogo from "/src/assets/Logo/ACCESSTRA0.svg";
 
 type Props = {
   isTopOfPage: boolean;
@@ -26,7 +27,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
         <div className={`${flexBetween} mx-auto w-5/6`}>
           <div className={`${flexBetween} w-full gap-16`}>
             {/*Left-Side Navbar*/}
-            <img alt="logo" src={Logo} />
+            <img alt="logo" src={AccesstraLogo} />
             {/*Right-Side Navbar*/}
             {isAboveMediumScreens ? (
               <div className={`${flexBetween} w-full`}>
@@ -37,12 +38,12 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                     setSelectedPage={setSelectedPage}
                   />
                   <Link
-                    page="Benefits"
+                    page="About Us"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                   />
                   <Link
-                    page="Our Classes"
+                    page="Our Visions"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                   />
@@ -53,7 +54,6 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                   />
                 </div>
                 <div className={`${flexBetween} gap-8`}>
-                  <p>Sign In</p>
                   <ActionButton setSelectedPage={setSelectedPage}>
                     Become a Member
                   </ActionButton>
@@ -89,12 +89,12 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
               setSelectedPage={setSelectedPage}
             />
             <Link
-              page="Benefits"
+              page="About Us"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
             <Link
-              page="Our Classes"
+              page="Our Visions"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { SelectedPage } from "../../shared/types";
 import { useForm } from "react-hook-form";
-import ContactUsPageGraphic from "../../assets/ContactUsPageGraphic.png";
+import ContactUsPageGraphic from "../../assets/Logo/Ausweis4.svg";
 import HText from "../../shared/HText";
 
 type Props = {
@@ -142,7 +142,7 @@ const Contact = ({ setSelectedPage }: Props) => {
               visible: { opacity: 1, y: 0 },
             }}
           >
-            <div className="md:before:content-[url('./assets/EvolveText.png')] w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1]">
+            <div className="md:before:content-[url('./assets/Logo/ACCESSTRA4GREY.svg')] w-full before:absolute before:-bottom-10 before:-right-10 before:z-[-1]">
               <img
                 className="w-full"
                 alt="contact-us-page-graphic"
