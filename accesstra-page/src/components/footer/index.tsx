@@ -1,4 +1,4 @@
-import Logo from "../../assets/Logo.png";
+import Logo from "../../assets/Logo/ACCESSTRA0.svg";
 
 const Footer = () => {
   return (
@@ -12,7 +12,7 @@ const Footer = () => {
             vero eros et accumsan et iusto odio dignissim qui blandit praesent
             luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
           </p>
-          <p>© Evogym All Rights Reserved.</p>
+          <p>© ACCESSTRA All Rights Reserved.</p>
         </div>
         <div className="mt-16 basis-1/4 md:mt-0">
           <h4 className="font-bold">Links</h4>

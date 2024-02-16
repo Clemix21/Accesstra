@@ -40,16 +40,11 @@ const Contact = ({ setSelectedPage }: Props) => {
           }}
         >
           <HText>
-            <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
+            <span className="text-primary-500">SAY HELLO</span> TO GET IN TOUCH
           </HText>
-          <p className="my-5">
-            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-            molestie consequat, vel illum dolore eu feugiat nulla facilisis at
-            vero eros et accumsan et iusto odio dignissim qui blandit praesent
-            luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat.
+          <p className="my-5 text-lg">
+            Just send us a message and we will get back to you as soon as we
+            can.
           </p>
         </motion.div>
 
@@ -69,7 +64,7 @@ const Contact = ({ setSelectedPage }: Props) => {
             <form
               target="_blank"
               onSubmit={onSubmit}
-              action="https://formsubmit.co/"
+              action="https://formsubmit.co/info@accesstra.tech"
               method="POST"
             >
               <input
@@ -124,7 +119,7 @@ const Contact = ({ setSelectedPage }: Props) => {
 
               <button
                 type="submit"
-                className="mt-5 rounded-lg bg-secondary-500 px-20 py-3 transition duration-500 hover:text-white"
+                className="mt-5 rounded-lg text-xl bg-secondary-500 px-20 py-3 transition duration-500 hover:text-white hover:bg-primary-300 hover:shadow-lg"
               >
                 SUBMIT
               </button>

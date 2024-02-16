@@ -42,7 +42,7 @@ const Home = ({ setSelectedPage }: Props) => {
               </div>
             </div>
 
-            <p className="mt-8 text-sm">
+            <p className="mt-8 text-lg">
               Unrivaled Gym. Unparalleled Training Fitness Classes. World Class
               Studios to get the Body Shapes That you Dream of.. Get Your Dream
               Body Now.
@@ -51,7 +51,7 @@ const Home = ({ setSelectedPage }: Props) => {
 
           {/* ACTION BUTTON */}
           <motion.div
-            className="mt-8 flex intems-center gap-8"
+            className="mt-8 mb-2 flex intems-center gap-8 text-lg text-primary-500"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}
@@ -62,15 +62,13 @@ const Home = ({ setSelectedPage }: Props) => {
             }}
           >
             <ActionButton setSelectedPage={setSelectedPage}>
-              Join Now
+              What is Accesstra?
             </ActionButton>
             <AnchorLink
               className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
-              onClick={() => setSelectedPage(SelectedPage.Contact)}
-              href={`#${SelectedPage.Contact}`}
-            >
-              <p>Learn More</p>
-            </AnchorLink>
+              onClick={() => setSelectedPage(SelectedPage.Benefits)}
+              href={`#${SelectedPage.Benefits}`}
+            ></AnchorLink>
           </motion.div>
         </div>
         {/* IMAGE */}
