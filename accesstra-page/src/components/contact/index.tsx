@@ -40,11 +40,11 @@ const Contact = ({ setSelectedPage }: Props) => {
           }}
         >
           <HText>
-            <span className="text-primary-500">SAY HELLO</span> TO GET IN TOUCH
+            <span className="text-primary-500">SAG HALLO</span> WIR FREUEN UNS
           </HText>
           <p className="my-5 text-lg">
-            Just send us a message and we will get back to you as soon as we
-            can.
+            Schreibe uns einfach eine Nachricht und wir melden uns bei dir
+            sobald wir können.
           </p>
         </motion.div>
 
@@ -103,7 +103,7 @@ const Contact = ({ setSelectedPage }: Props) => {
                 className={inputStyles}
                 rows={4}
                 cols={50}
-                placeholder="MESSAGE"
+                placeholder="NACHRICHT"
                 {...register("message", {
                   required: true,
                   maxLength: 2000,
@@ -121,7 +121,7 @@ const Contact = ({ setSelectedPage }: Props) => {
                 type="submit"
                 className="mt-5 rounded-lg text-xl bg-secondary-500 px-20 py-3 transition duration-500 hover:text-white hover:bg-primary-300 hover:shadow-lg"
               >
-                SUBMIT
+                Absenden
               </button>
             </form>
           </motion.div>

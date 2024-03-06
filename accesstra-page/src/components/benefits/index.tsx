@@ -12,21 +12,21 @@ import BenefitsPageGraphic from "../../assets/Logo/AccesstraWaves.svg";
 const benefits: Array<BenefitType> = [
   {
     icon: <HomeModernIcon className="h-6 w-6" />,
-    title: "State of the Art Facilities",
+    title: "Modernste Technik",
     description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "Wir nutzen innovative Technologien, um Barrieren auf Websites zu identifizieren und zu beseitigen – für eine mühelose Nutzung durch alle.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
-    title: "100´s of Diverse Classes",
+    title: "Vielfältiges Schulungsangebot",
     description:
-      "At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "Unsere breite Palette an Schulungen vermittelt Ihnen alles, was Sie für eine barrierefreie Website benötigen – verständlich und anwendbar.",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
-    title: "Expert and Pro Trainers",
+    title: "Erfahrene Experten",
     description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. ",
+      "Unsere Fachexperten stehen Ihnen zur Seite, um Ihre Website für jeden zugänglich zu machen. Erfahren Sie mehr über unsere Werte und unsere Arbeit, die Menschen verbindet. Kommen Sie mit uns ins Gespräch.",
   },
 ];
 
@@ -59,11 +59,11 @@ const Benefits = ({ setSelectedPage }: Props) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <HText>MORE THAN JUST A NAME.</HText>
+          <HText>MEHR ALS NUR EIN NAME.</HText>
           <p className="my-5 text-m">
-            We provide world class fitness equipment, trainers and classes to
-            get you to your ultimate fitness goals with ease. We assure true
-            care into each and every member.
+            Ihr Zugang zu einer Welt ohne digitale Grenzen. Wir setzen uns dafür
+            ein, dass jede Website von jedem besucht werden kann. Das ist unser
+            Engagement für eine inklusive digitale Zukunft.
           </p>
         </motion.div>
 

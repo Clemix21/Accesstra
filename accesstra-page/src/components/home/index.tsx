@@ -37,15 +37,18 @@ const Home = ({ setSelectedPage }: Props) => {
             }}
           >
             <div className="relative">
-              <div className="before:absolute before:-top-20 before:z-[-1] before:-left-20 md:before:content-evolvetext">
+              <div className="before:absolute before:-top-20 before:z-[-1] before:ml-20 before:-left-20 md:before:content-evolvetext">
                 <img alt="home-page-text" src={HomePageText}></img>
               </div>
             </div>
 
-            <p className="mt-8 text-lg">
-              Unrivaled Gym. Unparalleled Training Fitness Classes. World Class
-              Studios to get the Body Shapes That you Dream of.. Get Your Dream
-              Body Now.
+            <p className="mt-8 text-lg text-white ml-2">
+              Entdecken Sie mit Accesstra.tech die Zukunft der
+              Web-Barrierefreiheit. Unser Ziel ist es, das Internet für jeden
+              zugänglich zu machen – mit Tools und Schulungen, die Barrieren
+              abbauen und Inklusivität fördern. Sind Sie bereit, Ihre Website
+              für alle Menschen zu öffnen? Klicken Sie hier und beginnen Sie
+              Ihre Reise zu einer umfassenderen digitalen Welt.
             </p>
           </motion.div>
 
